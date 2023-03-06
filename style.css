@@ -393,8 +393,13 @@ footer {
 /* Theme */
 
 .theme-btn {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #000;
-    padding: 1.5rem;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     cursor: pointer;
     position: fixed;
@@ -406,6 +411,10 @@ footer {
 
 .theme-btn.light {
     background-color: #fff;
+}
+
+body.light .theme-btn i {
+    filter: invert(1);
 }
 
 body.light main {
@@ -438,6 +447,10 @@ body.light input {
     color: #000;
 }
 
+body.light main .resource-logo {
+    background-color: rgba(35, 34, 34, 0.144);
+}
+
 body.light::-webkit-scrollbar-thumb {
     background-color: #5a51fe;
 }
@@ -445,6 +458,7 @@ body.light::-webkit-scrollbar-thumb {
 body.light::-webkit-scrollbar-track {
     background-color: #c7c7c7;
 }
+
 
 
 
@@ -533,7 +547,9 @@ body.light::-webkit-scrollbar-track {
         align-items: flex-start;
     }
     .theme-btn {
-        padding: 1.25rem;
+        height: 40px;
+        width: 40px;
+        font-size: 1.25rem;
     }
 }
 
