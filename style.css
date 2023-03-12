@@ -438,13 +438,21 @@ body.light .resource-card {
     background-color: #fff;
 }
 
-body.light .resource-card .resource-content h3{
+body.light .resource-card .resource-content h3, body.light .header-title{
     color: #000;
 }
 
 body.light input {
     background-color: #fff;
     color: #000;
+}
+
+body.light header input {
+    border: 1px solid rgb(212, 206, 206);
+}
+
+body.light header input:focus {
+    border: 1px solid rgb(94, 91, 91);
 }
 
 body.light main .resource-logo {
