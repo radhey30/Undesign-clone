@@ -456,7 +456,7 @@ body.light header input:focus {
 }
 
 body.light main .resource-logo {
-    background-color: rgba(35, 34, 34, 0.144);
+    background-color: rgba(165, 160, 160, 0.144);
 }
 
 body.light::-webkit-scrollbar-thumb {
