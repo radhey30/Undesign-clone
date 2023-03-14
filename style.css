@@ -436,6 +436,7 @@ body.light .card .card-title {
 
 body.light .resource-card {
     background-color: #fff;
+    box-shadow: 0 0 30px 1px #2020207d;
 }
 
 body.light .resource-card .resource-content h3, body.light .header-title{
