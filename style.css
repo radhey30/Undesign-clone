@@ -97,7 +97,7 @@ header input {
     border: 1px solid #1d1c1ce0;
     border-radius: 5px;
     margin: 1rem 0;
-    width: 40%;
+    width: 50%;
     padding: .5rem 2rem .5rem 2.5rem;
     background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEzIj48ZyBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZT0iI2FhYSIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTExLjI5IDExLjcxbC00LTQiLz48Y2lyY2xlIGN4PSI1IiBjeT0iNSIgcj0iNCIvPjwvZz48L3N2Zz4K');
     background-repeat: no-repeat;
@@ -436,7 +436,7 @@ body.light .card .card-title {
 
 body.light .resource-card {
     background-color: #fff;
-    box-shadow: 0 0 30px 1px #2020207d;
+    box-shadow: 0 0 30px 1px #20202035;
 }
 
 body.light .resource-card .resource-content h3, body.light .header-title{
