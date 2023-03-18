@@ -302,13 +302,14 @@ footer {
     width: 350px;
 }
 
-.subscribe a {
+.subscribe button {
     background: linear-gradient(65deg, #5a51fe, #8751fe);
     color: #fff;
     font-weight: 500;
     padding: .4rem 1rem;
     border-radius: 2px;
     font-size: .875rem;
+    cursor: pointer;
 }
 
 
