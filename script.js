@@ -16,3 +16,12 @@ themeBtn.addEventListener('click',()=>{
     }
     themeBtn.appendChild(i)
 })
+
+
+const cards = document.querySelectorAll('.card')
+cards.forEach(function(card) {
+    card.addEventListener('click',function() {
+        let index = this.getAttribute('data-value')
+        localStorage.setItem('index',index)
+    })
+})

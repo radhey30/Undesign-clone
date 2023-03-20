@@ -191,6 +191,10 @@ body.light .bottom-container input[type="text"] {
     background-color: #fff;
 }
 
+body.light .bottom-container .extras div {
+    color: rgb(64, 62, 62);
+}
+
     
 
 @media (max-width: 720px) {

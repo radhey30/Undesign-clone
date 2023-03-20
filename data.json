@@ -1,0 +1,26 @@
+[
+    {
+        "img": "💡",
+        "header": "Inspiration",
+        "desc": "Best design inspiration websites to enhance your creativity before designing",
+        "cards": [
+            {
+                "logo": "https://collectui.com/img/favicon.ico",
+                "name": "Collect UI",
+                "info": "Daily inspiration collected from daily ui archive and beyond. Hand picked, updated daily."
+            }
+        ]
+    },
+    {
+        "img": "🎨",
+        "header": "Colors",
+        "desc": "Best free colors tools to find the perfect color palette",
+        "cards": [
+            {
+                "logo": "https://collectui.com/img/favicon.ico",
+                "name": "Collect UI",
+                "info": "Daily inspiration collected from daily ui archive and beyond. Hand picked, updated daily."
+            }
+        ]
+    }
+]

@@ -457,6 +457,10 @@ body.light header input:focus {
     border: 1px solid rgb(94, 91, 91);
 }
 
+body.light .header-title {
+    color: #5a51fe;
+}
+
 body.light main .resource-logo {
     background-color: rgba(165, 160, 160, 0.144);
 }
