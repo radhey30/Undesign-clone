@@ -1,6 +1,6 @@
 # Undesign Clone
 This is a Undesign website clone made with HTML, CSS and JS which includes multipage navigation, interactive hover cards, and theme changing button.
-[Live Project](https://radhey30.github.io/Undesign/)
+[Live Project](https://radhey30.github.io/Undesign-clone/)
 
 ### Preview 
 ![Screenshot (15)](https://github.com/radhey30/Undesign/assets/89542093/91c67346-80a6-4db6-aff0-616744839ce5)
