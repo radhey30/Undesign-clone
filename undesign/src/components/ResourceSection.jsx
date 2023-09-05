@@ -3,7 +3,7 @@ import ResourceCard from "./ResourceCard";
 
 export default function ResourceSection() {
   return (
-    <div className="resource">
+    <div className="resource-section">
       <h2 className="title_blue">Featured resources</h2>
       <div className="resources">
         <ResourceCard />

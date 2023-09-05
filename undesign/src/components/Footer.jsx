@@ -35,9 +35,6 @@ export default function Footer() {
           SUBMIT
         </a>
       </div>
-      <button className="theme-btn light">
-        <i className="fa-solid fa-lightbulb"></i>
-      </button>
     </footer>
   );
 }
