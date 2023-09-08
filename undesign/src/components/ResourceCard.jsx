@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function ResourceCard() {
   return (
-    <a className="resource-card" href="https://www.iconbolt.com">
+    <Link className="resource-card" target="_blank" to="https://www.iconbolt.com">
       <div className="resource-logo">
         <img
           src="https://www.iconbolt.com/static/img/meta/favicon.ico"
@@ -13,6 +14,6 @@ export default function ResourceCard() {
         <h3>IconBolt</h3>
         <p>Easy instant access to a growing Collection of high quality icons</p>
       </div>
-    </a>
+    </Link>
   );
 }

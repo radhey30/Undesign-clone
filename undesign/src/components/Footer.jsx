@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -27,13 +28,13 @@ export default function Footer() {
             Your website is already listed, but you want to make it more
             visible?{" "}
             <span>
-              <a href="submit.html">Upgrade it!</a>
+              <Link to="/upgrade">Upgrade it!</Link>
             </span>
           </p>
         </div>
-        <a className="submit-btn" href="submit.html">
+        <Link className="submit-btn" to="/submit">
           SUBMIT
-        </a>
+        </Link>
       </div>
     </footer>
   );

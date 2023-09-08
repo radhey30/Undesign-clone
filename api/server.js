@@ -25,6 +25,13 @@ app.get("/", (req, res) => {
   })
 });
 
+app.get("/:itemName", (req,res)=>{
+  let itemName = req.params.itemName[0].toUpperCase()+req.params.itemName.slice(1,)
+  resourceModel.find({title: itemName}).then(data => {
+    res.send(data)
+  })
+})
+
 app.listen(4000, () => {
   console.log("Server started at port 4000");
 });

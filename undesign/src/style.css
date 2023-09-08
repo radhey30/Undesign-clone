@@ -838,6 +838,7 @@ main.main-item .title {
     justify-content: center;
     gap: 1rem;
     padding: 5rem 0;
+    font-size: 1.2rem;
 }
 
 main.main-item .resources {
@@ -848,6 +849,7 @@ main.main-item .resources {
     border-radius: 2px;
     max-width: 1200px;
     padding: 2rem;
+    width: 100%;
     box-shadow: 0px 0px 30px 0px rgba(128, 128, 128, 0.235);
 }
 
@@ -857,10 +859,12 @@ main.main-item .resource {
     gap: 1rem;
     color: #fff;
     transition: all .5s;
+    width: 100%;
+    cursor: pointer;
 }
 
 main.main-item .resource:hover {
-    transform: translateX(5px);
+    transform: translate(5px);
 }
 
 main.main-item .resource .resource-logo {
@@ -971,6 +975,10 @@ body.light main.main-item .resource-info h3 {
 }
 
 @media (max-width: 768px) {
+
+    main.main-item .title {
+        font-size: 1rem;
+    }
 
     main.main-item .info-header {
         font-size: 16px;

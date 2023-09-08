@@ -1,12 +1,21 @@
-import React, { createContext, useState } from "react";
-
+import React, { createContext, useEffect, useState } from "react";
 export const themeContext = createContext(null);
 export default function ThemeContext({ children }) {
-  const [darkTheme, setDarkTheme] = useState(true);
+  const [darkTheme, setDarkTheme] = useState(
+    localStorage.getItem("darkmode") === "true" ? true : false
+  );
   function handleClick() {
     setDarkTheme((prev) => !prev);
-    document.body.classList.toggle("light", darkTheme)
+    document.body.classList.toggle("light", darkTheme);
   }
+  useEffect(() => {
+    localStorage.setItem("darkmode", darkTheme);
+  });
+
+  useEffect(() => {
+    if (darkTheme) document.body.classList.remove("light");
+    else document.body.classList.add("light");
+  }, []);
 
   return (
     <themeContext.Provider value={{ darkTheme, setDarkTheme }}>
