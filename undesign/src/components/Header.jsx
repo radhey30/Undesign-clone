@@ -3,7 +3,6 @@ import logo from "../logo.png"
 import SearchResults from "./SearchResults";
 
 export default function Header({handleSearchChange, display, resources}) {
-
   
   return (
     <header>

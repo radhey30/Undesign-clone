@@ -28,7 +28,6 @@ app.get("/", (req, res) => {
 
 app.get("/getallresources", (req,res)=>{
   let resources = []
-  console.log('hi');
   resourceModel.find({}).then(data => {
     data.map(resource => {
       resources.push(...resource.cards)
