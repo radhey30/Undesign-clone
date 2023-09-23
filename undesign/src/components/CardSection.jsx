@@ -32,7 +32,7 @@ export default function CardSection() {
   return (
     <div className="main-cards">
       {resourceData?.map((item) => {
-        return <Card key={item._id} title={item.title} icon={item.icon} />;
+        return <Card key={item._id} header={item.header} icon={item.icon} />;
       })}
     </div>
   );

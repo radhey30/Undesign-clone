@@ -1,26 +1,876 @@
 [
     {
-        "img": "💡",
+        "icon": "💡",
         "header": "Inspiration",
-        "desc": "Best design inspiration websites to enhance your creativity before designing",
+        "description": "Best design inspiration websites to enhance your creativity before designing",
         "cards": [
             {
                 "logo": "https://collectui.com/img/favicon.ico",
                 "name": "Collect UI",
-                "info": "Daily inspiration collected from daily ui archive and beyond. Hand picked, updated daily."
+                "info": "Daily inspiration collected from daily ui archive and beyond. Hand picked, updated daily.",
+                "link": "https://collectui.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/uisources.png",
+                "name":"UI Sources",
+                "info":"Browse thousands of designs curated from the best designed apps in the…",
+                "link": "https://www.uisources.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/dribbble.png",
+                "name":"Dribble",
+                "info": "Dribbble is the leading destination to find &amp; showcase creative work and home to the world's best design professionals.",
+                "link": "https://dribbble.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/behance.png",
+                "name":"Behance",
+                "info": "Showcase & Discover Creative Work.",
+                "link": "https://behance.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/awwwards.png",
+                "name":"Awwwards",
+                "info": "Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
+                "link": "https://awwwards.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/onepagelove.png",
+                "name":"One Page Love",
+                "info": "One Page websites, templates and resources.",
+                "link": "https://awwwards.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/glitch.png",
+                "name":"Glitch",
+                "info": "The friendly community where everyone can discover & create the best stuff on the web",
+                "link": "https://glitch.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/codepen.png",
+                "name":"Codepen Topics",
+                "info": "Templates, examples and resources from common libraries, frameworks and UI patterns.",
+                "link": "https://codepen.io/topics"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/httpster.png",
+                "name":"Httpster",
+                "info": "Httpster is an inspiration resource showcasing totally rocking websites made by people from all over the world",
+                "link": "https://httpster.net"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/DesignMunk.png",
+                "name":"DesignMunk",
+                "info": "DesignMunk is a curated gallery showcasing fresh and amazing landing and homepage design inspirations.",
+                "link": "https://designmunk.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/scrnshts.png",
+                "name":"scrnshts",
+                "info": "A hand-picked collection of the finest app store design screenshots.",
+                "link": "https://scrnshts.club"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/producthunt.png",
+                "name":"Product Hunt",
+                "info": "Product Hunt is a curation of the best new products, every day, a good source of inspiration.",
+                "link": "https://producthunt.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/muzli.png",
+                "name":"Search by Muzli",
+                "info": "Search and discover, create and get inspired by thousands of design and color combinations examples from our vast visual inventory.",
+                "link": "https://search.muz.li"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/saaspages.png",
+                "name":"SaaS Pages",
+                "info": "A collection of the best landing pages with a focus on copywriting and design.",
+                "link": "https://saaspages.xyz"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/emaillove.png",
+                "name":"Email Love",
+                "info": "Email inspiration, resources and discovery",
+                "link": "https://emaillove.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/tailwindui.png",
+                "name":"Tailwind UI",
+                "info": "Tailwind UI is a collection of professionally designed, pre-build, fully responsive HTML snippets you can drop into your Tailwind projects.",
+                "link": "https://tailwindui.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/screenshotinspiration.png",
+                "name":"Screenshot Inspiration",
+                "info": "Curated collection of app store screenshots.",
+                "link": "https://screenshotcreator.com/inspire"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/laudableapps.png",
+                "name":"LaudableApps",
+                "info": "A collection of iOS apps.",
+                "link": "https://laudableapps.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/flim.png",
+                "name":"Flim",
+                "info": "Flim helps you find the perfect image to express your ideas.",
+                "link": "https://flim.ai"
             }
         ]
     },
     {
-        "img": "🎨",
+        "icon": "🎨",
         "header": "Colors",
-        "desc": "Best free colors tools to find the perfect color palette",
+        "description": "Best free colors tools to find the perfect color palette",
         "cards": [
             {
-                "logo": "https://collectui.com/img/favicon.ico",
-                "name": "Collect UI",
-                "info": "Daily inspiration collected from daily ui archive and beyond. Hand picked, updated daily."
+                "logo":"https://undesign.learn.uno/images/logos/interactor.png",
+                "name":"Colors interactor",
+                "info": "A simple way to check the interactions between the colors of your palette.",
+                "link": "https://colors.learn.uno"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/ColorHunt.png",
+                "name":"Color Hunt",
+                "info": "Color Hunt is a free and open flatporm for color inspiration with thousands of trendy hand-picked color palettes.",
+                "link": "https://colorhunt.co"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/colorlisa.png",
+                "name":"Color Lisa",
+                "info": "Color palette masterpieces from the world's greatest artists.",
+                "link": "https:colorlisa.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/CSSGradient.png",
+                "name":"CSS Gradient",
+                "info": "CSS Gradient is a happy little website and free tool that lets you create a gradient background for websites.",
+                "link": "https:cssgradient.io"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/picular.png",
+                "name":"Picular",
+                "info": "Google, but for colors.",
+                "link": "https://picular.co"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/adobe.png",
+                "name":"Adobe Color CC",
+                "info": "Create color schemes with the color wheel or browse thousands of color combinations from the Kuler community.",
+                "link": "https://color.adobe.com/create/color-wheel"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/coolors.png",
+                "name":"Coolors",
+                "info": "Create the perfect palette or get inspired by thousands of beautiful color schemes.",
+                "link": "https://coolors.co"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/material-palette.png",
+                "name":"Material Palette",
+                "info": "The material design palette generator.",
+                "link": "https://www.materialpalette.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/tilda.png",
+                "name":"Tilda Colors",
+                "info": "Copy the color you like - just click on its code or palette.",
+                "link": "https://tilda.cc/colors"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/khroma.png",
+                "name":"Khroma",
+                "info": "The AI color tool for designers.",
+                "link": "https://www.khroma.co"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/flatui.png",
+                "name":"Flat UI Colors",
+                "info": "Flat UI Colors 2 features 13 more color palettes. Collaborating with 13 designers around the world, a total set of 280 colors.",
+                "link": "https://flatuicolors.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/colorffy.png",
+                "name":"Colorffy",
+                "info": "Search for a color, a word, or hexadecimal, find resources and tools for ui designers and developers.",
+                "link": "https://colorffy.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/colorable.png",
+                "name":"Colorable",
+                "info": "Find easily two colors that matches based on their contrast",
+                "link": "https://colorable.jxnblk.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/rosdebud.png",
+                "name":"Happy Hues",
+                "info": "Curated colors in context",
+                "link": "https://www.happyhues.co"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/brandcolors.png",
+                "name":"BrandColors",
+                "info": "The biggest collection of official brand color codes around. Includes hex colors for 500+ brands including Facebook, Instagram, and many more.",
+                "link": "https://brandcolors.net"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/colormixer.png",
+                "name":"Parametric Color Mixer",
+                "info": "A color palette composer inspired by audio parametric equalizers. Create a base color transition and mix in color layers in different blending modes and with a scientific precision.",
+                "link": "https://colormixer.web.app"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/tailwindink.png",
+                "name":"Tailwind Ink",
+                "info": "A tool for creating new color shades based on a neural network and trained with a Tailwindcss palette.",
+                "link": "https://tailwind.ink"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/colorsandfonts.png",
+                "name":"Colorsandfonts",
+                "info": "Colorsandfonts is a collection of color and typography resources for Web Developers and Digital Designers to find inspiration.",
+                "link": "https://www.colorsandfonts.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/colorsui.png",
+                "name":"Colors UI",
+                "info": "Colors UI is a free color palette tool. It's a collection of popular color palettes for web designers and developers to pick perfect color palette.",
+                "link": "https://colorsui.com"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/mobilepalette.png",
+                "name":"Mobile Palette Generator",
+                "info": "Generate stunning color palettes for your next mobile app",
+                "link": "https://mobilepalette.colorion.co"
+            },
+            {
+                "logo":"",
+                "name":"FettePalette",
+                "info": "FettePalette is lightweight, dependency free and fast JavaScript function written in TypeScript. It generates color ramps based on a curve within the HSV color model. This page serves as preview for the variety of options the function takes.",
+                "link": "https://meodai.github.io/fettepalette"
+            },
+            {
+                "logo":"https://undesign.learn.uno/images/logos/colorhuddle.png",
+                "name":"ColorHuddle",
+                "info": "ColorHuddle is a free collection of 11 modern, ready-to-use color palettes with live examples.",
+                "link": "https://colorhuddle.co"
+            }
+        ]
+    },
+    {
+        "icon": "🌈",
+        "header": "Gradients",
+        "description": "Best gradient tools for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🔤",
+        "header": "Typography",
+        "description": "Best free typography and fonts websites to find the right font pair",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🏷️",
+        "header": "Logos",
+        "description": "Best free logos websites to build your next brand",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🎭",
+        "header": "Templates",
+        "description": "Best free templates websites to build faster websites",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "💼",
+        "header": "Templates for Powerpoint",
+        "description": "Best free powerpoint templates for your next presentations",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🗒️",
+        "header": "Code snippets",
+        "description": "Best free snippets and libraries to get inspired and build faster websites",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🌱",
+        "header": "Tailwind CSS",
+        "description": "Best free Tailwind CSS ressources and libraries to build faster websites",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "⚗️",
+        "header": "Generators",
+        "description": "Best free generators tools for css, colors, gradients, and grids",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "💠",
+        "header": "Icons",
+        "description": "Best free icons websites to build your websites and apps",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "😃",
+        "header": "Emoji",
+        "description": "Best free emoji to decorate your websites and apps",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "⚡",
+        "header": "Animations",
+        "description": "Best free animation and animated icon websites to build your websites and apps",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🖼️",
+        "header": "Illustrations",
+        "description": "Best free illustrations websites for your landing pages, presentations, or apps",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🧊",
+        "header": "3D Illustrations",
+        "description": "Best free 3D illustrations websites for your landing pages, presentations, or apps",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🌄",
+        "header": "Backgrounds",
+        "description": "Best free backgrounds websites to build the perfect website",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📏",
+        "header": "Upscalers",
+        "description": "Best tools to resize your pictures",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "✂️",
+        "header": "Remove Background",
+        "description": "Best tools to remove backgrounds of any photos",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "⚜️",
+        "header": "Patterns",
+        "description": "Best free patterns to use as background or texture for your project",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📷",
+        "header": "Photos",
+        "description": "Best free photos to use in your websites, presentation or any documents",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🎞️",
+        "header": "Videos",
+        "description": "Best free videos to use in your websites, presentations or as backgrounds",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🎵",
+        "header": "Audios",
+        "description": "Best free audio library to use in your video creation, websites, presentation or events",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "✒️",
+        "header": "Mockups",
+        "description": "Best free mockups to showcase your latest creations",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📐",
+        "header": "Design Patterns",
+        "description": "Best free design pattern websites to build good and consistent interfaces and experiences",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📱",
+        "header": "Prototyping",
+        "description": "Best prototyping tool to design your project before building it",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📦",
+        "header": "Design Research",
+        "description": "Best design research tools to know better your users",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "✍️",
+        "header": "Copywriting",
+        "description": "Best tool to help you write the perfect text for your designs",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🦾",
+        "header": "No-code Webstite builder",
+        "description": "Best tool to help build websites and apps without code",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🚀",
+        "header": "No-code Automations",
+        "description": "Best tool to help automate your life and projects without code",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📊",
+        "header": "No-code Databases",
+        "description": "Best tool to help build databases & forms without code",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🤖",
+        "header": "Artificial Intelligence",
+        "description": "Best design tools using AI",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "✅",
+        "header": "Checklists",
+        "description": "Best free checklists to follow in order to build good websites or apps",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "♿",
+        "header": "Accessibility",
+        "description": "Best accessibility tools to make your project more inclusive",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📁",
+        "header": "Styleguides",
+        "description": "Best styleguide tool and resources to create a strong brand",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🎮",
+        "header": "Game Designs",
+        "description": "Best free game design resources for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "💎",
+        "header": "NFT",
+        "description": "Best free NFT resources for designing and generating a collection of NFTs",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📈",
+        "header": "Trends",
+        "description": "Best resources to find what are the current trends and to find the next big trend",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "☁️",
+        "header": "Serverless",
+        "description": "Best free serverless and static page hosting for you next projects",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🧑‍💻",
+        "header": "Monitoring",
+        "description": "Best free tools for monitoring your websites and servers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🔨",
+        "header": "Tools",
+        "description": "Best free design tools for your next projects",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "⌚",
+        "header": "Productivity",
+        "description": "Best free productivity tools",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🌐",
+        "header": "Browser extensions",
+        "description": "Best browser extensions for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🧠",
+        "header": "Focus",
+        "description": "Best free tools to help you focus to get things done",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📖",
+        "header": "Learning",
+        "description": "best learning resources for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "🔄",
+        "header": "Mental models",
+        "description": "Best mental models & psychology learning resources for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📚",
+        "header": "Books",
+        "description": "Best resources to find the best books to read for makers and designers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "💪",
+        "header": "Skills list",
+        "description": "Best skills list for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "👛",
+        "header": "Coupons",
+        "description": "Best discounts and coupons for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "icon": "📑",
+        "header": "Curated lists",
+        "description": "Best curated list of design resources for developers, designers and makers",
+        "cards": [
+            {
+                "logo":"https://undesign.learn.uno/images/logos/.png",
+                "name":"",
+                "info": "",
+                "link": ""
             }
         ]
     }
 ]
+
+
+

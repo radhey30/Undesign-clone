@@ -1,6 +1,10 @@
+import { useRef } from "react";
 import logo from "../logo.png"
+import SearchResults from "./SearchResults";
 
-export default function Header() {
+export default function Header({handleSearchChange, display, resources}) {
+
+  
   return (
     <header>
       <img src={logo} alt="undesign" />
@@ -9,7 +13,10 @@ export default function Header() {
         Collection of free design tools and resources for makers, developers and
         designers
       </p>
-      <input type="text" placeholder="Search..." />
+      <div className="searchDiv">
+      <input type="text" placeholder="Search..." onChange={handleSearchChange} />
+      <SearchResults display={display} resources={resources} />
+      </div>
     </header>
   );
 }

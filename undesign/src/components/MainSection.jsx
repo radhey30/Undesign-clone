@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import CardSection from "./CardSection";
 import ResourceSection from "./ResourceSection";
+import axios from "axios";
 
-export default function MainSection() {
+export default function MainSection({handleSearchChange, display, resources}) {
   return (
     <>
       <Navbar />
-      <Header />
+      <Header handleSearchChange={handleSearchChange} display={display} resources={resources} />
       <main>
         <div className="main-title">
           <h2 className="title_blue">Tools & Resources</h2>

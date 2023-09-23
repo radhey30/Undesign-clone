@@ -91,6 +91,11 @@ header img {
     font-family: var(--fs-sans-serif);
 }
 
+header .searchDiv {
+    width: 50%;
+    position: relative;
+}
+
 header input {
     background-color: #000;
     outline: none;
@@ -99,7 +104,7 @@ header input {
     border: 1px solid #1d1c1ce0;
     border-radius: 5px;
     margin: 1rem 0;
-    width: 50%;
+    width: 100%;
     padding: .5rem 2rem .5rem 2.5rem;
     background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEzIj48ZyBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZT0iI2FhYSIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTExLjI5IDExLjcxbC00LTQiLz48Y2lyY2xlIGN4PSI1IiBjeT0iNSIgcj0iNCIvPjwvZz48L3N2Zz4K');
     background-repeat: no-repeat;
@@ -844,7 +849,7 @@ main.main-item .title {
 main.main-item .resources {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.5rem;
     border: 1px solid rgba(128, 128, 128, 0.582);
     border-radius: 2px;
     max-width: 1200px;
@@ -877,6 +882,8 @@ main.main-item .resource .resource-logo {
 
 main.main-item .resource .resource-logo img {
     height: 32px;
+    object-fit: contain;
+    aspect-ratio: 1;
 }
 
 main.main-item .resource .resource-info {
@@ -916,10 +923,47 @@ body.light main.main-item .resource-info h3 {
     color: #000;
 }
 
+.searchResults {
+    position: absolute;
+    border: 1px solid #726e6e8a;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: fit-content;
+    background-color: black;
+    padding: 5px;
+    z-index: 20;
+}
+
+.searchResult {
+    display: flex;    
+    color: #5a51fe;
+    gap: .5rem;
+    width: 100%;
+    cursor: pointer;
+    padding: .75rem .5rem;
+}
+
+.searchResult:hover {
+    background-color: #282323;
+}
+
+.searchResult img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 1.5rem;
+}
 
 
+body.light .searchResults {
+    background-color: white;
+}
 
+body.light .searchResult:hover {
+    background-color: rgba(230, 230, 230, 0.678);
 
+}
 
 /* Media Queries */
 

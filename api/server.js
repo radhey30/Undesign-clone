@@ -16,6 +16,7 @@ mongoose
 
 const resourceModel = require("./models/resourceModel");
 
+
 const app = express();
 app.use(cors());
 
@@ -25,12 +26,25 @@ app.get("/", (req, res) => {
   })
 });
 
+app.get("/getallresources", (req,res)=>{
+  let resources = []
+  console.log('hi');
+  resourceModel.find({}).then(data => {
+    data.map(resource => {
+      resources.push(...resource.cards)
+    })
+    res.send(resources)
+  })
+})
+
+
 app.get("/:itemName", (req,res)=>{
   let itemName = req.params.itemName[0].toUpperCase()+req.params.itemName.slice(1,)
-  resourceModel.find({title: itemName}).then(data => {
+  resourceModel.find({header: itemName}).then(data => {
     res.send(data)
   })
 })
+
 
 app.listen(4000, () => {
   console.log("Server started at port 4000");
