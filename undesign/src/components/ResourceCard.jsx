@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function ResourceCard() {
+export default function ResourceCard({resource}) {
   return (
-    <Link className="resource-card" target="_blank" to="https://www.iconbolt.com">
+    <Link className="resource-card" target="_blank" to={resource?.link}>
       <div className="resource-logo">
         <img
-          src="https://www.iconbolt.com/static/img/meta/favicon.ico"
-          alt="thunderbolt"
+          src={resource?.logo || "https://static.thenounproject.com/png/36918-200.png"}
+          alt="logo"
         />
       </div>
       <div className="resource-content">
-        <h3>IconBolt</h3>
-        <p>Easy instant access to a growing Collection of high quality icons</p>
+        <h3>{resource?.name}</h3>
+        <p>{resource?.info}</p>
       </div>
     </Link>
   );

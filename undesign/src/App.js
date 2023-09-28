@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import MainSection from "./components/MainSection";
 import SubmitPage from "./components/SubmitPage";
 import UpgradePage from "./components/UpgradePage";
-import { Routes, Route, useLocation, useLoaderData } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import ItemPage from "./components/ItemPage";
 import PageNotFound from "./components/PageNotFound";
 import axios from "axios";
@@ -21,16 +21,21 @@ export default function App() {
 
     return null;
   }
+// const unique = [...new Set(myList)];
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/getallresources", { val: 10 })
+      .get("http://localhost:4000/getallresources")
       .then((res) => {
         setResources(() => {
           if (searchValue) {
             return res.data.filter((item) =>
               item.name.toLowerCase().startsWith(searchValue.toLowerCase())
-            );
+            ).sort((first, next) => {
+              return first.name.localeCompare(next.name)
+            }).filter((val, idx, arr) => {
+              return (idx === 0) || (val.name !== arr[idx-1].name)
+            })
           } else return [];
         });
       });
@@ -41,9 +46,10 @@ export default function App() {
     }
   }, [searchValue]);
 
+  const path = useLocation().pathname
   useEffect(() => {
     setDisplay(false);
-  }, [useLocation().pathname]);
+  }, [path]);
 
   function handleSearchChange(event) {
     setSearchValue(event.target.value);

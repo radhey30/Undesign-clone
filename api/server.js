@@ -16,33 +16,44 @@ mongoose
 
 const resourceModel = require("./models/resourceModel");
 
-
 const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  resourceModel.find().then(data => {
-    res.send(data)
-  })
+  resourceModel.find().then((data) => {
+    res.send(data);
+  });
 });
 
-app.get("/getallresources", (req,res)=>{
-  let resources = []
-  resourceModel.find({}).then(data => {
-    data.map(resource => {
-      resources.push(...resource.cards)
-    })
-    res.send(resources)
-  })
-})
+app.get("/getallresources", (req, res) => {
+  let resources = [];
+  resourceModel.find({}).then((data) => {
+    data.map((resource) => {
+      resources.push(...resource.cards);
+    });
+    res.send(resources);
+  });
+});
 
+app.get("/randomResources", (req, res) => {
+  let resources = [];
+  let randomResources = []
+  resourceModel.find({}).then((data) => {
+    data.map((resource) => {
+      resources.push(...resource.cards);
+    });
+    for(let i=0;i<6;i++) {
+      randomResources.push(resources[Math.floor(Math.random()*resources.length)])
+    }
+    res.send(randomResources)
+  });
+});
 
-app.get("/:itemName", (req,res)=>{
-  let itemName = req.params.itemName[0].toUpperCase()+req.params.itemName.slice(1,)
-  resourceModel.find({header: itemName}).then(data => {
-    res.send(data)
-  })
-})
+app.get("/:itemName", (req, res) => {
+  resourceModel.find({ header: req.params.itemName }).then((data) => {
+    res.send(data);
+  });
+});
 
 
 app.listen(4000, () => {

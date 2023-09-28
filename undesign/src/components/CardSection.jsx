@@ -5,19 +5,6 @@ import axios from "axios";
 export default function CardSection() {
   const [resourceData, setResourceData] = useState([]);
 
-  // useEffect(()=>{
-  //   const cardObserver = new IntersectionObserver(entries => {
-  //     entries.forEach(entry => {
-  //       entry.target.classList.toggle('intersecting', entry.isIntersecting)
-  //     })
-  //   }, {
-  //     threshold: 1
-  //   })
-  //   document.querySelectorAll('a#card-element').forEach(card => {
-  //     cardObserver.observe(card)
-  //   })
-  // })
-
   useEffect(() => {
     axios
       .get("http://localhost:4000")
