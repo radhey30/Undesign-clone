@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 export default function Footer() {
+  const [email, setEmail] = useState("");
+  function handleSubmit(e) {
+    e.preventDefault();
+    axios.post("http://localhost:4000/forwardmail", {
+      sendMailTo: email,
+      type: "register" 
+    });
+    alert('Registered successfully')
+    setEmail("")
+  }
+
   return (
     <footer>
       <div className="top-footer">
@@ -11,11 +23,15 @@ export default function Footer() {
           tools
         </p>
         <div className="subscribe">
-          <form action="#">
-            <input type="email" placeholder="Email address" required />
-            <button type="submit">
-              SUBSCRIBE
-            </button>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="email"
+              placeholder="Email address"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <button type="submit">SUBSCRIBE</button>
           </form>
         </div>
       </div>

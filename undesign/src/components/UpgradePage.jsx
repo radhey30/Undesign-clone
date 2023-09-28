@@ -1,8 +1,16 @@
-import React from "react";
-import logo from "../logo.png"
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import logo from "../logo.png";
+import { Link, Navigate } from "react-router-dom";
 
 export default function UpgradePage() {
+  const [redirect, setRedirect] = useState(false);
+  function handleSubmit(e) {
+    e.preventDefault();
+    setRedirect(true);
+  }
+  if (redirect) {
+    return <Navigate to="/" />;
+  }
   return (
     <main className="main-upgrade">
       <div className="container">
@@ -44,7 +52,7 @@ export default function UpgradePage() {
               Support an independent creator
             </div>
           </div>
-          <form action="index.html" autoComplete="off">
+          <form autoComplete="off" onSubmit={handleSubmit}>
             <label>
               Name of the resource <br />
               <input type="text" placeholder="Search..." required />
