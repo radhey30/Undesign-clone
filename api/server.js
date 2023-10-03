@@ -4,7 +4,7 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 
 const uri =
-  "mongodb+srv://radheychitroda:undesign@cluster0.ejqb2zc.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@cluster0.ejqb2zc.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(uri)
